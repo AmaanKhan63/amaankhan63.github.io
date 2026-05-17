@@ -3,20 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amaan Khan | Software Developer</title>
-    <meta name="description" content="Software Developer building AI-driven and enterprise-grade products for Fortune 500 clients. Expertise in React, TypeScript, Node.js, and AI integrations." />
+    <title>Amaan Khan — Software Engineer</title>
+    <meta
+      name="description"
+      content="Software engineer. I ship AI-native products end-to-end for enterprise customers — design through deployment, solo. Currently at Naya Studio."
+    />
     <meta name="author" content="Amaan Khan" />
-    <meta name="keywords" content="Amaan Khan, Software Developer, React Developer, TypeScript, Node.js, AI Integration, Full Stack Developer" />
 
-    <meta property="og:title" content="Amaan Khan | Software Developer" />
-    <meta property="og:description" content="Building AI-driven and enterprise-grade products for Fortune 500 clients." />
+    <meta property="og:title" content="Amaan Khan — Software Engineer" />
+    <meta
+      property="og:description"
+      content="Software engineer. I ship AI-native products end-to-end for enterprise customers — design through deployment, solo."
+    />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Amaan Khan | Software Developer" />
-    <meta name="twitter:description" content="Building AI-driven and enterprise-grade products for Fortune 500 clients." />
+    <meta name="twitter:title" content="Amaan Khan — Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Software engineer. I ship AI-native products end-to-end for enterprise customers — design through deployment, solo."
+    />
+    <meta name="twitter:image" content="/og.png" />
 
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <script>
+      // Prevent flash of wrong theme: read user preference or system preference
+      // before React mounts and add 'dark' class to <html> immediately.
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var isDark = stored === "dark" || (stored !== "light" && prefersDark);
+          if (isDark) document.documentElement.classList.add("dark");
+        } catch (e) {}
+      })();
+    </script>
   </head>
 
   <body>
