@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=B4540A&height=120&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=635BFF&height=120&section=header" width="100%"/>
 
 <div align="center">
 
@@ -127,9 +127,9 @@ Also Founding Engineer on **Sustainability AI** (Beta 2026) — Carbon, Water, P
 ### 💬 Open to Founding-Engineer Roles at Seed/Series A AI Startups
 
 <a href="https://cal.com/amaan-khan/intro">
-<img src="https://img.shields.io/badge/Book_a_30--min_intro-B4540A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Book_a_30--min_intro-635BFF?style=for-the-badge"/>
 </a>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=B4540A&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=635BFF&height=100&section=footer" width="100%"/>

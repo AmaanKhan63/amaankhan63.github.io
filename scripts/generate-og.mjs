@@ -3,10 +3,10 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
 // ─── Match the active accent in src/index.css if you swap it ───
-const ACCENT = "#B4540A"; // amber (default)
+// const ACCENT = "#B4540A"; // amber (default)
 // const ACCENT = "#1F4D3F"; // forest
 // const ACCENT = "#8B3A2E"; // terracotta
-// const ACCENT = "#635BFF"; // stripe blurple
+const ACCENT = "#635BFF"; // stripe blurple
 // const ACCENT = "#0070F3"; // vercel blue
 // const ACCENT = "#1A4FE0"; // cobalt
 // const ACCENT = "#FF5722"; // sentry orange

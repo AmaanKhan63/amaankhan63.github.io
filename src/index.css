@@ -15,23 +15,29 @@
 
     /* ─── Active accent — uncomment ONE line to swap ─── */
     /* amber  */
-    --accent: 24 90% 37%;       
+    /* --accent: 24 90% 37%;        */
     /* forest */
-    /* --accent: 162 43% 21%;    */   
+    /* --accent: 162 43% 21%;       */
     /* terracotta */
-    /* --accent: 8 50% 36%;      */   
+    /* --accent: 8 50% 36%;         */
     /* stripe blurple */
-    /* --accent: 244 100% 67%;   */   
+    --accent: 244 100% 67%;     
     /* vercel blue */
-    /* --accent: 212 100% 48%;   */   
+    /* --accent: 212 100% 48%;      */
     /* cobalt */
-    /* --accent: 226 79% 49%;    */   
-    /* --accent: 14 100% 57%;    */   /* sentry orange */
-    /* --accent: 349 78% 51%;    */   /* crimson */
-    /* --accent: 191 91% 36%;    */   /* cyan */
-    /* --accent: 0 57% 26%;      */   /* deep crimson */
-    /* --accent: 313 41% 26%;    */   /* plum */
-    /* --accent: 17 90% 41%;     */   /* burnt orange */
+    /* --accent: 226 79% 49%;       */
+    /* sentry orange */
+    /* --accent: 14 100% 57%;       */
+    /* crimson */
+    /* --accent: 349 78% 51%;       */
+    /* cyan */
+    /* --accent: 191 91% 36%;       */
+    /* deep crimson */
+    /* --accent: 0 57% 26%;         */
+    /* plum */
+    /* --accent: 313 41% 26%;       */
+    /* burnt orange */
+    /* --accent: 17 90% 41%;        */
   }
 
   .dark {
