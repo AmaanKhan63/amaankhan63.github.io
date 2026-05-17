@@ -128,11 +128,15 @@ Output (PDF + structured JSON)`}</pre>
 
       <section>
         <h2 className="font-serif text-2xl mb-4">What I'd do differently</h2>
-        <p className="text-muted italic">
-          {/* TODO: Amaan to fill in */}
-          [Pending — to be written by Amaan. Should be honest about a real
-          tradeoff he'd revisit if starting again. Founders read this section
-          most carefully.]
+        <p>
+          Cache more rate data in flat lookup tables. The pipeline currently
+          fetches supplier rates, freight rates, and per-vertical markup
+          conventions from MongoDB on every estimation — fine at current
+          volume, but a flat table layer (or a column store keyed by SKU and
+          region) would cut hot-path latency and let me serve faster previews
+          to estimators iterating on a single line item. If I were starting
+          over, I'd build this in from day one rather than treating it as an
+          optimization to do later.
         </p>
       </section>
     </CaseStudyLayout>

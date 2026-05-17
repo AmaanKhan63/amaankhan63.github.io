@@ -103,9 +103,16 @@ export default function RealtimeCollab() {
 
       <section>
         <h2 className="font-serif text-2xl mb-4">What I'd do differently</h2>
-        <p className="text-muted italic">
-          {/* TODO: Amaan to fill in */}
-          [Pending — to be written by Amaan.]
+        <p>
+          Drop YJS, use WebSockets + MongoDB directly. Once Change Streams were
+          already in place as the server-side feedback loop, the database was
+          effectively the source of truth — YJS was solving the merge problem
+          at a layer we didn't need it at, since concurrent writes can be
+          reconciled via change-stream ordering with optimistic UI on the
+          clients. The CRDT was overkill for the conflict patterns we actually
+          saw (mostly distinct sections being edited, not character-level
+          overlap). A simpler architecture would have been easier to reason
+          about, easier to debug, and faster.
         </p>
       </section>
     </CaseStudyLayout>

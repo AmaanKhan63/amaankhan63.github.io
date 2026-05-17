@@ -14,18 +14,24 @@
     --border: 36 19% 90%;    /* #E8E6E1 */
 
     /* ─── Active accent — uncomment ONE line to swap ─── */
-    --accent: 24 90% 37%;       /* amber */
-    /* --accent: 162 43% 21%;       forest */
-    /* --accent: 8 50% 36%;         terracotta */
-    /* --accent: 244 100% 67%;      stripe blurple */
-    /* --accent: 212 100% 48%;      vercel blue */
-    /* --accent: 226 79% 49%;       cobalt */
-    /* --accent: 14 100% 57%;       sentry orange */
-    /* --accent: 349 78% 51%;       crimson */
-    /* --accent: 191 91% 36%;       cyan */
-    /* --accent: 0 57% 26%;         deep crimson */
-    /* --accent: 313 41% 26%;       plum */
-    /* --accent: 17 90% 41%;        burnt orange */
+    /* amber  */
+    --accent: 24 90% 37%;       
+    /* forest */
+    /* --accent: 162 43% 21%;    */   
+    /* terracotta */
+    /* --accent: 8 50% 36%;      */   
+    /* stripe blurple */
+    /* --accent: 244 100% 67%;   */   
+    /* vercel blue */
+    /* --accent: 212 100% 48%;   */   
+    /* cobalt */
+    /* --accent: 226 79% 49%;    */   
+    /* --accent: 14 100% 57%;    */   /* sentry orange */
+    /* --accent: 349 78% 51%;    */   /* crimson */
+    /* --accent: 191 91% 36%;    */   /* cyan */
+    /* --accent: 0 57% 26%;      */   /* deep crimson */
+    /* --accent: 313 41% 26%;    */   /* plum */
+    /* --accent: 17 90% 41%;     */   /* burnt orange */
   }
 
   .dark {

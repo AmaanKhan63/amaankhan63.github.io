@@ -1,24 +1,133 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=B4540A&height=120&section=header" width="100%"/>
+
+<div align="center">
+
 # Amaan Khan
 
-Software engineer. I ship AI-native products end-to-end for enterprise customers — design through deployment, solo. Currently at [Naya Studio](https://naya.studio).
+**Founding Engineer · Full-Stack AI Engineer · Enterprise AI Products**
 
-### Now
+I ship AI-native products end-to-end for enterprise customers — design through deployment, solo.
 
-Founding Engineer on **Cost Estimation** — solo-built the product from architecture through production launch; codebase became the foundation for client-specific forks at **MillerKnoll**, **Schneider Electric**, and **NAC**, driving **$500K+ in signed enterprise contracts** and **4,000+ estimations** in production.
+[![Portfolio](https://img.shields.io/badge/Portfolio-1A1A1A?style=for-the-badge&logo=safari&logoColor=white)](https://amaankhan63.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amaan-khan-gsm)
+[![X](https://img.shields.io/badge/-Amaan2210-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Amaan2210)
+[![Email](https://img.shields.io/badge/-amankhanak063-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amankhanak063@gmail.com)
 
-Founding Engineer on **Sustainability AI** (Beta 2026) — Carbon, Water, Plastic, and Energy analysis for Naya's enterprise customers, built on the same pipeline architecture as Cost Estimation.
+</div>
 
-Also a Software Developer on Naya's broader **Workflow** platform: multi-provider AI generation (10 providers, 50+ models), WOPI integration for Adidas, multimodal LangChain ingestion, real-time collaboration on YJS + MongoDB Change Streams, and the Sleep Mode DOM offload system that delivered 90% image-load improvement and 500MB+ memory reduction on long sessions.
+<br/>
 
-### Selected work
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **[Cost Estimation](https://amaankhan63.github.io/work/cost-estimation)** — Solo-built. Founding Engineer. $500K+ signed enterprise contracts.
-- **[Multi-provider AI orchestration](https://amaankhan63.github.io/work/multi-provider-ai)** — 10 providers, 50+ models. Powered a $200K+ Adidas deal.
-- **[WOPI for Adidas](https://amaankhan63.github.io/work/wopi-adidas)** — In-platform Microsoft Office editing.
-- **[Real-time collaboration](https://amaankhan63.github.io/work/realtime-collab)** — WebSockets + MongoDB Change Streams + YJS.
+### 🎯 Now
 
-### Links
+**Founding Engineer** at **[Naya Studio](https://naya.studio)** — solo-built **[Cost Estimation](https://amaankhan63.github.io/work/cost-estimation)**, now in production and the foundation for client-specific forks at **MillerKnoll**, **Schneider Electric**, and **NAC**.
 
-[Portfolio](https://amaankhan63.github.io) · [LinkedIn](https://linkedin.com/in/amaan-khan-gsm) · [X](https://x.com/Amaan2210) · [Email](mailto:amankhanak063@gmail.com)
+Also Founding Engineer on **Sustainability AI** (Beta 2026) — Carbon, Water, Plastic, and Energy analysis built on the same pipeline architecture.
 
-Open to founding-engineer roles at seed/Series A AI startups, remote. Book a 30-min intro at [cal.com/amaan-khan/intro](https://cal.com/amaan-khan/intro).
+</td>
+<td width="50%" valign="top">
+
+### 📊 Impact
+
+```
+✦ $500K+ signed enterprise contracts
+✦ 4,000+ estimations in production
+✦ $200K+ Adidas deal (Workflow platform)
+✦ 10 AI providers, 50+ models
+✦ 90% image-load improvement
+✦ 500MB+ memory reduction
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🔨 Selected Work
+
+<table>
+<tr>
+<td align="center" width="25%" valign="top">
+<br/>
+<img src="https://img.icons8.com/fluency/48/calculator.png" width="40"/>
+<br/><br/>
+<strong>Cost Estimation</strong>
+<br/><br/>
+<sub>Solo-built · Founding Engineer<br/>$500K+ enterprise contracts<br/>4k+ runs in production</sub>
+<br/><br/>
+<a href="https://amaankhan63.github.io/work/cost-estimation">Read →</a>
+<br/><br/>
+</td>
+<td align="center" width="25%" valign="top">
+<br/>
+<img src="https://img.icons8.com/fluency/48/artificial-intelligence.png" width="40"/>
+<br/><br/>
+<strong>Multi-provider AI</strong>
+<br/><br/>
+<sub>10 providers · 50+ models<br/>Custom Hunyuan 3D service<br/>$200K+ Adidas deal</sub>
+<br/><br/>
+<a href="https://amaankhan63.github.io/work/multi-provider-ai">Read →</a>
+<br/><br/>
+</td>
+<td align="center" width="25%" valign="top">
+<br/>
+<img src="https://img.icons8.com/fluency/48/microsoft-office-2019.png" width="40"/>
+<br/><br/>
+<strong>WOPI for Adidas</strong>
+<br/><br/>
+<sub>In-platform Office editing<br/>Drive · SharePoint backends<br/>Enterprise rollout</sub>
+<br/><br/>
+<a href="https://amaankhan63.github.io/work/wopi-adidas">Read →</a>
+<br/><br/>
+</td>
+<td align="center" width="25%" valign="top">
+<br/>
+<img src="https://img.icons8.com/fluency/48/synchronize.png" width="40"/>
+<br/><br/>
+<strong>Real-time Collab</strong>
+<br/><br/>
+<sub>WebSockets · YJS<br/>MongoDB Change Streams<br/>Sleep Mode · CAD ingest</sub>
+<br/><br/>
+<a href="https://amaankhan63.github.io/work/realtime-collab">Read →</a>
+<br/><br/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
+![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 💬 Open to Founding-Engineer Roles at Seed/Series A AI Startups
+
+<a href="https://cal.com/amaan-khan/intro">
+<img src="https://img.shields.io/badge/Book_a_30--min_intro-B4540A?style=for-the-badge"/>
+</a>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=B4540A&height=100&section=footer" width="100%"/>

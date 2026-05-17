@@ -102,9 +102,16 @@ Frontend renders result`}</pre>
 
       <section>
         <h2 className="font-serif text-2xl mb-4">What I'd do differently</h2>
-        <p className="text-muted italic">
-          {/* TODO: Amaan to fill in */}
-          [Pending — to be written by Amaan.]
+        <p>
+          Handle pub/sub ack timeouts properly from the start. Early on I rode
+          the default ack-deadline behaviour, and one bad provider call that
+          hung for too long triggered the message to redeliver — repeatedly —
+          generating a GCP bill I'm still cringing about. The fix was
+          straightforward (explicit deadline tuning + dead-letter routing on
+          provider-class failures), but the lesson is that worker timeout
+          assumptions need to be modelled explicitly at the queue layer, not
+          implicitly in the worker code. Cheap defaults are not safe defaults
+          at scale.
         </p>
       </section>
     </CaseStudyLayout>

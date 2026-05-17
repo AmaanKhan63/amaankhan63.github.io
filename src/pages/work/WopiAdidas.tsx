@@ -94,9 +94,14 @@ Naya WOPI host persists to backend
 
       <section>
         <h2 className="font-serif text-2xl mb-4">What I'd do differently</h2>
-        <p className="text-muted italic">
-          {/* TODO: Amaan to fill in */}
-          [Pending — to be written by Amaan.]
+        <p>
+          Honestly, not much. The WOPI protocol prescribes most of the
+          architecture — token issuance, lock semantics, the iframe handoff —
+          so the design space was narrow and the calls I made tracked the spec.
+          The bugs I shipped were in lock state and they'd happen again on a
+          rewrite. If I were doing it cold, I'd model the lock state machine
+          formally before writing the implementation, but the architecture
+          itself I'd repeat.
         </p>
       </section>
     </CaseStudyLayout>
