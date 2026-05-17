@@ -1,3 +1,12 @@
+import WorkRow from "@/components/WorkRow";
+import { workItems } from "@/lib/work-items";
+
 export default function Home() {
-  return <main className="p-8"><h1>Home (stub)</h1></main>;
+  return (
+    <main className="mx-auto max-w-prose px-4 py-12">
+      {workItems.map((item) => (
+        <WorkRow key={item.slug} item={item} />
+      ))}
+    </main>
+  );
 }
