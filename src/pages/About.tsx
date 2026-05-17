@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import profile from "@/assets/profile.png";
+import profile from "@/assets/profile.jpg";
 
 export default function About() {
   useEffect(() => {
