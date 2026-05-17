@@ -1431,7 +1431,7 @@ export default function CaseStudyLayout({
           ))}
         </dl>
 
-        <article className="prose-portfolio space-y-10 text-base sm:text-lg leading-relaxed">
+        <article className="space-y-10 text-base sm:text-lg leading-relaxed">
           {children}
         </article>
 
