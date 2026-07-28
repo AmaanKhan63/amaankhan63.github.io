@@ -10,7 +10,7 @@ export const workItems: WorkItem[] = [
     year: "2025–Present",
     title: "Cost Estimation",
     description:
-      "Founding engineer. Solo-built. $500K+ signed enterprise contracts, 4k+ estimations in production.",
+      "Founding engineer. Solo-built. $500K+ signed enterprise contracts, 7.5k+ estimations in production.",
     slug: "cost-estimation",
   },
   {
