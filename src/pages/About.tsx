@@ -5,7 +5,7 @@ import profile from "@/assets/profile.jpg";
 
 export default function About() {
   useEffect(() => {
-    document.title = "About — Amaan Khan";
+    document.title = "About - Amaan Khan";
   }, []);
 
   return (
@@ -31,7 +31,7 @@ export default function About() {
           <div className="space-y-4 text-base sm:text-lg leading-relaxed">
             <p>
               I ship. Most of what I build at Naya Studio has gone live in front of
-              enterprise customers within weeks of starting it — the Cost Estimation
+              enterprise customers within weeks of starting it - the Cost Estimation
               product I'm currently founding-engineering went from architecture
               sketches to $500K+ in signed enterprise contracts in a single year,
               and the codebase now serves as the foundation for client-specific
@@ -42,7 +42,7 @@ export default function About() {
               are daily drivers, not experiments. I treat them the way a previous
               generation treated their IDE: as table stakes for shipping at the
               pace AI startups actually need. When I say I built something solo,
-              I mean me plus the AI tools I use every day — and I think that's
+              I mean me plus the AI tools I use every day - and I think that's
               the honest framing.
             </p>
             <p>
@@ -54,7 +54,7 @@ export default function About() {
             </p>
             <p>
               I default to less. Less abstraction, fewer dependencies, fewer
-              clever frameworks. The hard part of shipping isn't writing code —
+              clever frameworks. The hard part of shipping isn't writing code -
               it's knowing what not to write.
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function About() {
             <p>
               B.Tech in Computer Science from Swami Ramanand Teerth Marathwada
               University (2019–2023). Joined Naya Studio in November 2022 and
-              have been there since — currently a Founding Engineer on Cost
+              have been there since - currently a Founding Engineer on Cost
               Estimation and Sustainability AI (Beta 2026), and a Software
               Developer on the broader Workflow platform.
             </p>
@@ -79,12 +79,12 @@ export default function About() {
               engineers building enterprise integrations.
             </p>
             <p>
-              Resume:{" "}
+              Resume: happy to send one -{" "}
               <a
-                href="/amaan-khan-resume.pdf"
+                href="mailto:amankhanak063@gmail.com"
                 className="text-accent hover:underline underline-offset-4"
               >
-                PDF
+                email me
               </a>
               .
             </p>
