@@ -18,4 +18,4 @@ const after = (await stat(output)).size;
 await rm(input);
 
 const pct = ((1 - after / before) * 100).toFixed(1);
-console.log(`profile.png (${(before / 1024).toFixed(0)} KB) → profile.jpg (${(after / 1024).toFixed(0)} KB) — ${pct}% smaller`);
+console.log(`profile.png (${(before / 1024).toFixed(0)} KB) → profile.jpg (${(after / 1024).toFixed(0)} KB) - ${pct}% smaller`);

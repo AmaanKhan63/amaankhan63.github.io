@@ -27,10 +27,10 @@ const svg = `
   <rect x="80" y="350" width="280" height="4" fill="${ACCENT}"/>
 
   <text x="80" y="425" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="400" fill="#1A1A1A">Software engineer. I ship AI-native products end-to-end</text>
-  <text x="80" y="468" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="400" fill="#1A1A1A">for enterprise customers — design through deployment, solo.</text>
+  <text x="80" y="468" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="400" fill="#1A1A1A">for enterprise customers - design through deployment, solo.</text>
 
   <text x="80" y="555" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#6B6B6B">amaankhan63.github.io</text>
 </svg>`;
 
-await sharp(Buffer.from(svg)).png().toFile(output);
+await sharp(Buffer.from(svg)).png({ compressionLevel: 9 }).toFile(output);
 console.log(`Wrote ${output} (accent ${ACCENT})`);

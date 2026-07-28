@@ -6,7 +6,7 @@ import { workItems } from "@/lib/work-items";
 
 export default function Home() {
   useEffect(() => {
-    document.title = "Amaan Khan — Software Engineer";
+    document.title = "Amaan Khan - Software Engineer";
   }, []);
 
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           </h1>
           <p className="stagger-2 mt-6 text-lg sm:text-xl leading-relaxed">
             Software engineer. I ship AI-native products end-to-end for enterprise
-            customers — design through deployment, solo.
+            customers - design through deployment, solo.
           </p>
           <p className="stagger-3 mt-3 text-lg sm:text-xl text-muted leading-relaxed">
             Currently at Naya Studio. Open to founding-engineer roles.
@@ -75,7 +75,7 @@ export default function Home() {
             Now
           </h2>
           <p className="text-base sm:text-lg leading-relaxed">
-            Shipping AI-native products at Naya Studio — currently a Founding
+            Shipping AI-native products at Naya Studio - currently a Founding
             Engineer on Cost Estimation and Sustainability AI (Beta 2026).
             Writing about multi-provider orchestration and shipping solo with
             Claude Code.
@@ -88,7 +88,7 @@ export default function Home() {
             >
               early-engineer roles at seed/Series A AI startups
             </Link>{" "}
-            — remote, founding compensation conversation welcome.
+            - remote, founding compensation conversation welcome.
           </p>
         </section>
       </main>

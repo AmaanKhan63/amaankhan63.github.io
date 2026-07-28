@@ -6,7 +6,7 @@ import { workItems } from "@/lib/work-items";
 
 export default function Work() {
   useEffect(() => {
-    document.title = "Work — Amaan Khan";
+    document.title = "Work - Amaan Khan";
   }, []);
 
   return (

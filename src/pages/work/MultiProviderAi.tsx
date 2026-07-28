@@ -3,7 +3,7 @@ import CaseStudyLayout from "@/components/CaseStudyLayout";
 
 export default function MultiProviderAi() {
   useEffect(() => {
-    document.title = "Multi-provider AI — Amaan Khan";
+    document.title = "Multi-provider AI - Amaan Khan";
   }, []);
 
   return (
@@ -23,7 +23,7 @@ export default function MultiProviderAi() {
         <p>
           Naya's Workflow platform generates images, 3D models, and other assets
           for enterprise design teams. The customers don't care which AI
-          provider sits behind it — they care that the generation works, looks
+          provider sits behind it - they care that the generation works, looks
           good, and stays available when one provider has an outage or rate-limits
           a critical workload.
         </p>
@@ -42,7 +42,7 @@ export default function MultiProviderAi() {
           text-to-3D, and image-to-3D. 10 providers (OpenAI, Anthropic, Google
           Gemini, Stability AI, Meshy, Hunyuan, and others) and 50+ models in
           total. Each generation request flows through a provider router that
-          handles model selection, fan-out, fallback, and queueing — the
+          handles model selection, fan-out, fallback, and queueing - the
           frontend doesn't know which provider served which response.
         </p>
         <p>
@@ -86,7 +86,7 @@ Frontend renders result`}</pre>
         <h2 className="font-serif text-2xl mb-4">Outcome</h2>
         <ul className="list-disc pl-6 space-y-2">
           <li>
-            <strong>$200K+ Adidas deal</strong> — the platform's generation
+            <strong>$200K+ Adidas deal</strong> - the platform's generation
             capabilities were a major component of the contract
           </li>
           <li>
@@ -95,7 +95,7 @@ Frontend renders result`}</pre>
           </li>
           <li>
             <strong>Custom Hunyuan 3D service</strong> bypassing Tencent API
-            limits — lower per-generation cost and reduced licensing dependency
+            limits - lower per-generation cost and reduced licensing dependency
           </li>
         </ul>
       </section>
@@ -105,7 +105,7 @@ Frontend renders result`}</pre>
         <p>
           Handle pub/sub ack timeouts properly from the start. Early on I rode
           the default ack-deadline behaviour, and one bad provider call that
-          hung for too long triggered the message to redeliver — repeatedly —
+          hung for too long triggered the message to redeliver - repeatedly -
           generating a GCP bill I'm still cringing about. The fix was
           straightforward (explicit deadline tuning + dead-letter routing on
           provider-class failures), but the lesson is that worker timeout

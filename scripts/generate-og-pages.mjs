@@ -1,7 +1,7 @@
 // Emits per-route HTML files into dist/work/<slug>/index.html so that social
 // crawlers (which don't execute JS) see route-specific og:image / og:title /
 // og:description tags. The React SPA still takes over normally on real user
-// loads — these files are byte-for-byte the built index.html with only the
+// loads - these files are byte-for-byte the built index.html with only the
 // head meta tags swapped.
 
 import fs from "node:fs";
@@ -15,30 +15,30 @@ const SITE = "https://amaankhan63.github.io";
 const pages = [
   {
     slug: "cost-estimation",
-    title: "Cost Estimation — Amaan Khan",
+    title: "Cost Estimation - Amaan Khan",
     description:
       "Solo-built the AI Cost Estimation product as Founding Engineer. Its codebase became the foundation for FDE forks at MillerKnoll, Schneider Electric, and NAC.",
     image: "og-cost-estimation.png",
   },
   {
     slug: "multi-provider-ai",
-    title: "Multi-provider AI orchestration — Amaan Khan",
+    title: "Multi-provider AI orchestration - Amaan Khan",
     description:
       "10 providers, 50+ models powering enterprise generation workflows for Adidas, MillerKnoll, and others.",
     image: "og-multi-provider-ai.png",
   },
   {
     slug: "wopi-adidas",
-    title: "WOPI for Adidas — Amaan Khan",
+    title: "WOPI for Adidas - Amaan Khan",
     description:
-      "In-platform Microsoft Office editing for Adidas enterprise teams — Word and Excel documents edited without leaving Naya's Workflow platform.",
+      "In-platform Microsoft Office editing for Adidas enterprise teams - Word and Excel documents edited without leaving Naya's Workflow platform.",
     image: "og-wopi-adidas.png",
   },
   {
     slug: "realtime-collab",
-    title: "Real-time collaboration — Amaan Khan",
+    title: "Real-time collaboration - Amaan Khan",
     description:
-      "Simultaneous multi-user editing across Naya's Workflow platform — WebSockets + MongoDB Change Streams + YJS.",
+      "Simultaneous multi-user editing across Naya's Workflow platform - WebSockets + MongoDB Change Streams + YJS.",
     image: "og-realtime-collab.png",
   },
 ];
@@ -79,7 +79,7 @@ function setTitle(html, newTitle) {
 
 const templatePath = path.join(distDir, "index.html");
 if (!fs.existsSync(templatePath)) {
-  throw new Error(`Missing ${templatePath} — run \`vite build\` first.`);
+  throw new Error(`Missing ${templatePath} - run \`vite build\` first.`);
 }
 const template = fs.readFileSync(templatePath, "utf8");
 

@@ -3,14 +3,14 @@ import CaseStudyLayout from "@/components/CaseStudyLayout";
 
 export default function WopiAdidas() {
   useEffect(() => {
-    document.title = "WOPI for Adidas — Amaan Khan";
+    document.title = "WOPI for Adidas - Amaan Khan";
   }, []);
 
   return (
     <CaseStudyLayout
       slug="wopi-adidas"
       title="WOPI integration for Adidas"
-      subtitle="In-platform Microsoft Office editing for Adidas enterprise teams — Word and Excel documents edited without leaving Naya's Workflow platform."
+      subtitle="In-platform Microsoft Office editing for Adidas enterprise teams - Word and Excel documents edited without leaving Naya's Workflow platform."
       metadata={[
         { label: "Role", value: "Software Developer" },
         { label: "Stack", value: "TypeScript, Node, Microsoft WOPI protocol" },
@@ -22,7 +22,7 @@ export default function WopiAdidas() {
         <h2 className="font-serif text-2xl mb-4">The problem</h2>
         <p>
           Adidas's enterprise teams needed to view and edit Microsoft Office
-          documents — Word and Excel — inside Naya's Workflow platform, not
+          documents - Word and Excel - inside Naya's Workflow platform, not
           download-edit-reupload through their desktop apps. The standard
           experience (open in Word, save locally, drag-drop back into the
           platform) loses version history, makes review cycles slower, and
@@ -35,14 +35,14 @@ export default function WopiAdidas() {
         <p>
           A full WOPI (Web Application Open Platform Interface) integration. WOPI
           is Microsoft's protocol for letting third-party document hosts plug
-          into Office Online — when an authenticated request lands, Office
+          into Office Online - when an authenticated request lands, Office
           Online opens the document inside an iframe in our platform, talks
           back to our WOPI host endpoints for read/write/lock operations, and
           users edit the document inline.
         </p>
         <p>
           The integration also covers Google Drive and SharePoint as additional
-          enterprise storage backends — customers like Adidas keep documents
+          enterprise storage backends - customers like Adidas keep documents
           in their existing storage and Naya brokers the editing flow.
         </p>
       </section>
@@ -65,7 +65,7 @@ Office Online ◄──── reads file (CheckFileInfo, GetFile)
 Naya WOPI host persists to backend
    (S3 / SharePoint / Google Drive)`}</pre>
         <p>
-          The trickiest part of WOPI isn't the happy path — it's the locking
+          The trickiest part of WOPI isn't the happy path - it's the locking
           semantics. Office Online expects exclusive write locks during an
           edit session, and the platform has to handle stale locks, refresh
           tokens, and concurrent-edit attempts cleanly. Most of the bugs
@@ -81,12 +81,12 @@ Naya WOPI host persists to backend
             in-platform without context-switching to desktop Office
           </li>
           <li>
-            Google Drive and SharePoint integrations layered on top — customers
+            Google Drive and SharePoint integrations layered on top - customers
             keep their existing storage strategy
           </li>
           <li>
             Outside Naya, I mentor engineers in the CSPP community on WOPI
-            specifically — the protocol's documentation has historically been
+            specifically - the protocol's documentation has historically been
             hard to navigate
           </li>
         </ul>
@@ -96,7 +96,7 @@ Naya WOPI host persists to backend
         <h2 className="font-serif text-2xl mb-4">What I'd do differently</h2>
         <p>
           Honestly, not much. The WOPI protocol prescribes most of the
-          architecture — token issuance, lock semantics, the iframe handoff —
+          architecture - token issuance, lock semantics, the iframe handoff -
           so the design space was narrow and the calls I made tracked the spec.
           The bugs I shipped were in lock state and they'd happen again on a
           rewrite. If I were doing it cold, I'd model the lock state machine

@@ -13,7 +13,7 @@
     --muted: 0 0% 42%;       /* #6B6B6B */
     --border: 36 19% 90%;    /* #E8E6E1 */
 
-    /* ─── Active accent — uncomment ONE line to swap ─── */
+    /* ─── Active accent - uncomment ONE line to swap ─── */
     /* amber  */
     /* --accent: 24 90% 37%;        */
     /* forest */
@@ -45,7 +45,7 @@
     --fg: 39 22% 97%;
     --muted: 0 0% 60%;
     --border: 0 0% 18%;
-    /* --accent inherits — same hex works on both modes */
+    /* --accent inherits - same hex works on both modes */
   }
 
   * {

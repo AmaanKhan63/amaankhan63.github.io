@@ -3,14 +3,14 @@ import CaseStudyLayout from "@/components/CaseStudyLayout";
 
 export default function RealtimeCollab() {
   useEffect(() => {
-    document.title = "Real-time collaboration — Amaan Khan";
+    document.title = "Real-time collaboration - Amaan Khan";
   }, []);
 
   return (
     <CaseStudyLayout
       slug="realtime-collab"
       title="Real-time collaboration system"
-      subtitle="Simultaneous multi-user editing across Naya's Workflow platform — WebSockets + MongoDB Change Streams + YJS."
+      subtitle="Simultaneous multi-user editing across Naya's Workflow platform - WebSockets + MongoDB Change Streams + YJS."
       metadata={[
         { label: "Role", value: "Software Developer" },
         { label: "Stack", value: "TypeScript, Node, MongoDB, WebSockets, YJS" },
@@ -22,7 +22,7 @@ export default function RealtimeCollab() {
         <h2 className="font-serif text-2xl mb-4">The problem</h2>
         <p>
           The Workflow platform's documents and design surfaces needed
-          Google-Docs-style concurrent editing — multiple users editing the
+          Google-Docs-style concurrent editing - multiple users editing the
           same document with live cursors, conflict-free merges, and durable
           server-side state. Customers expected this as table stakes by 2023;
           enterprise design teams don't work alone.
@@ -41,7 +41,7 @@ export default function RealtimeCollab() {
         <p>
           I also engineered Python cloud functions for CAD-format conversion
           and ingestion pipelines that feed into the same collaborative
-          documents — designs uploaded as STEP/IGES files get converted and
+          documents - designs uploaded as STEP/IGES files get converted and
           ingested without breaking the collab session in progress.
         </p>
       </section>
@@ -89,7 +89,7 @@ export default function RealtimeCollab() {
             document surfaces
           </li>
           <li>
-            Sleep Mode — a DOM offload system that suspends inactive
+            Sleep Mode - a DOM offload system that suspends inactive
             collaborative sessions while preserving server state, eliminating
             long-session tab crashes for returning users
           </li>
@@ -106,7 +106,7 @@ export default function RealtimeCollab() {
         <p>
           Drop YJS, use WebSockets + MongoDB directly. Once Change Streams were
           already in place as the server-side feedback loop, the database was
-          effectively the source of truth — YJS was solving the merge problem
+          effectively the source of truth - YJS was solving the merge problem
           at a layer we didn't need it at, since concurrent writes can be
           reconciled via change-stream ordering with optimistic UI on the
           clients. The CRDT was overkill for the conflict patterns we actually
